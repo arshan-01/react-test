@@ -30,6 +30,9 @@ const ShowDetails = () => {
     };
     localStorage.setItem("bookingDetails", JSON.stringify(bookingDetails));
     setBookingConfirmed(true);
+    // Reset form fields after booking confirmation
+    setUserName("");
+    setEmail("");
   };
 
   if (!show) {
@@ -74,7 +77,9 @@ const ShowDetails = () => {
             <button
               type="button"
               className="btn btn-primary"
-              onClick={handleBooking}
+              onClick={() => {
+                handleBooking();
+              }}
             >
               Book Now
             </button>
