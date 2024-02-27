@@ -5,32 +5,13 @@ import { Link } from "react-router-dom";
 const ShowList = () => {
   const [shows, setShows] = useState([]);
 
-console.log("sdfsf")
-console.log("sdfsf")
-console.log("sdfsf")
-
-console.log("sdfsf")
-console.log("sdfsf")
-
-console.log("sdfsf")
-console.log("sdfsf")
-console.log("sdfsf")
-console.log("sdfsf")
-console.log("sdfsf")
-console.log("sdfsf")
-
-
-
-
-console.log("sdfsf")
   useEffect(() => {
     axios
       .get("https://api.tvmaze.com/search/shows?q=all")
       .then((response) => {
         setShows(response.data);
       })
-      .catch(() => {
-      });
+      .catch(() => {});
   }, []);
 
   return (
@@ -58,10 +39,5 @@ console.log("sdfsf")
     </div>
   );
 };
-
-
-
-
-
 
 export default ShowList;
