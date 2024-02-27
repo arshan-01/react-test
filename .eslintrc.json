@@ -19,6 +19,7 @@
         "no-console": 1,
         "no-unexpected-multiline": 1,
         "babel-eslint": "off",
-        "quotes": [1, "double"]
+        "quotes": [1, "double"],
+        "no-multiple-empty-lines": [1, { "max": 1 }]
     }
 }

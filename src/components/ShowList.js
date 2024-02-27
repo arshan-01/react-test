@@ -11,7 +11,7 @@ const ShowList = () => {
       .then((response) => {
         setShows(response.data);
       })
-      .catch((error) => {
+      .catch(() => {
       });
   }, []);
 

@@ -6,13 +6,6 @@ const App = () => {
 
   let str = "jkhkj"
 
-
-
-
-
-
-  
-
   return <Routing />;
 };
 
