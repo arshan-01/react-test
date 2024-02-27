@@ -9,18 +9,16 @@
       "sourceType": "module",
       "ecmaFeatures": {
         "jsx": true
-      },
-     
+      }
     },
     "parser": "@typescript-eslint/parser",
     "plugins": ["only-warn"],
     "rules": {
-        "no-unused-vars": "warns",
-        "no-console": "warns",
-        "no-unexpected-multiline": "warns",
+        "no-unused-vars": "error",
+        "no-console": "error",
+        "no-unexpected-multiline": "error", // Fix the typo here
         "babel-eslint": "off",
-        "quotes": ["warns", "double"],
-        "no-multiple-empty-lines": ["warns", { "max": 1 }]
-    },
-    "severity": "warn"
+        "quotes": ["error", "double"],
+        "no-multiple-empty-lines": ["error", { "max": 1 }]
+    }
 }
