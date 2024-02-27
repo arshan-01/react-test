@@ -6,7 +6,7 @@ const ShowList = () => {
   const [shows, setShows] = useState([]);
 
 console.log("sdfsf")
-
+console.log("sdfsf")
   useEffect(() => {
     axios
       .get("https://api.tvmaze.com/search/shows?q=all")
