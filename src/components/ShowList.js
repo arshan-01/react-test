@@ -6,6 +6,10 @@ const ShowList = () => {
   const [shows, setShows] = useState([]);
 
 console.log("sdfsf")
+
+
+
+
 console.log("sdfsf")
   useEffect(() => {
     axios
