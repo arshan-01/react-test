@@ -14,11 +14,11 @@
   "parser": "@typescript-eslint/parser",
   "plugins": ["only-warn"],
   "rules": {
-    "no-unused-vars": "error",
+    "no-unused-vars": 1,
     "no-console": 1,
-    "no-unexpected-multiline": "error",
+    "no-unexpected-multiline": 1,
     "babel-eslint": "off",
-    "quotes": ["error", "double"],
-    "no-multiple-empty-lines": ["error", { "max": 1 }]
+    "quotes": [1, "double"],
+    "no-multiple-empty-lines": [1, { "max": 1 }]
   }
 }
