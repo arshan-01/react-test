@@ -12,7 +12,6 @@ const ShowList = () => {
         setShows(response.data);
       })
       .catch((error) => {
-        console.error("Error fetching data:", error);
       });
   }, []);
 
