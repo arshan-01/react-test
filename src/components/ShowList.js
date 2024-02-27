@@ -5,10 +5,7 @@ import { Link } from "react-router-dom";
 const ShowList = () => {
   const [shows, setShows] = useState([]);
 
-
-
-
-  
+console.log("sdfsf")
 
   useEffect(() => {
     axios
