@@ -37,9 +37,6 @@
       "react-app/jest"
     ]
   },
-  "pre-commit": [
-    "precommit"
-  ],
   "browserslist": {
     "production": [
       ">0.2%",
