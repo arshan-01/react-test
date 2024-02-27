@@ -7,7 +7,6 @@ const ShowList = () => {
 
 
 
-  
 
   useEffect(() => {
     axios

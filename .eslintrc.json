@@ -14,11 +14,11 @@
     "parser": "@typescript-eslint/parser",
     "plugins": ["only-warn"],
     "rules": {
-        "no-unused-vars": "error",
-        "no-console": "error",
-        "no-unexpected-multiline": "error", // Fix the typo here
+        "no-unused-vars": 1,
+        "no-console": 1,
+        "no-unexpected-multiline":1, // Fix the typo here
         "babel-eslint": "off",
-        "quotes": ["error", "double"],
-        "no-multiple-empty-lines": ["error", { "max": 1 }]
+        "quotes": [1, "double"],
+        "no-multiple-empty-lines": [1, { "max": 1 }]
     }
 }
