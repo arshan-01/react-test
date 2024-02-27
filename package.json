@@ -26,7 +26,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint \"src/**/*.{js,tsx,jsx}\"",
-    "fix": "eslint --fix  \"src/**/*.{js,tsx,jsx}\""
+    "fix": "eslint --fix  \"src/**/*.{js,tsx,jsx}\"",
+    "pre-commit-eslint-and-prettier": "pre-commit-eslint-and-prettier"
   },
   "eslintConfig": {
     "extends": [
@@ -45,5 +46,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "pre-commit": "^1.2.2",
+    "pre-commit-eslint-and-prettier": "^1.0.0"
+  },
+  "pre-commit": [
+    "pre-commit-eslint-and-prettier"
+  ]
 }
