@@ -8,7 +8,7 @@
       "ecmaVersion": 12,
       "sourceType": "module",
       "ecmaFeatures": {
-        "js": true
+        "jsx": true
       },    "severity": 1
     
     },
@@ -16,7 +16,7 @@
     "plugins": ["only-warn"],
     "rules": {
         "no-unused-vars": "error",
-        "no-console": "error",
+        "no-console": 1,
         "no-unexpected-multiline":"error",
         "babel-eslint": "off",
         "quotes": ["error", "double"],
