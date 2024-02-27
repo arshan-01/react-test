@@ -7,7 +7,6 @@ const ShowList = () => {
 
 
 
-
   useEffect(() => {
     axios
       .get("https://api.tvmaze.com/search/shows?q=all")
