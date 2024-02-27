@@ -48,7 +48,6 @@
     ]
   },
   "devDependencies": {
-    "pre-commit": "^1.2.2",
     "pre-commit-eslint-and-prettier": "^1.0.0"
   },
   "pre-commit": [
